@@ -8,7 +8,7 @@ namespace CSE2522_Assignment02.Tests
     {
         [Test]
         [Description("Update button text with valid input")]
-        public void UpdateButtonText_WithValidInput()'
+        public void UpdateButtonText_WithValidInput()
         {
             var page = new TextInputPage(driver, wait);
             page.Open();

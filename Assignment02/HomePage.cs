@@ -13,8 +13,7 @@ namespace CSE2522_Assignment02.Pages
 
         public void OpenSampleApp()
         {
-            // Implement navigation to the Sample app page here...
-            // driver.Navigate().GoToUrl("http://kavishka-venuka.me");
+            driver.Navigate().GoToUrl("https://uitestingplayground.com/sampleapp");
         }
     }
 }

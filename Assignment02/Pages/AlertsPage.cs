@@ -82,7 +82,7 @@ namespace CSE2522_Assignment02.Pages
             result.Accept();
 
             
-            return rawText.Replace("User value:", "user value").Trim();
+            return rawText.Replace("User value:", "user value :").Trim();
         }
 
         

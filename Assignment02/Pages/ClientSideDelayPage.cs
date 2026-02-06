@@ -20,13 +20,13 @@ namespace CSE2522_Assignment02.Pages
             driver.Navigate().GoToUrl("https://uitestingplayground.com/clientdelay");
 
             
-            wait.Until(d => d.FindElement(By.Id("AJAXButton")));
+            wait.Until(d => d.FindElement(By.Id("ajaxButton")));
         }
 
         public void ClickButton()
         {
             IWebElement button = wait.Until(d =>
-                d.FindElement(By.Id("AJAXButton"))
+                d.FindElement(By.Id("ajaxButton"))
             );
 
             button.Click();

@@ -3,7 +3,7 @@ using CSE2522_Assignment02.Pages;
 using NUnit.Framework;
 using OpenQA.Selenium;
 
-namespace CSE2522_Assignment.Tests
+namespace CSE2522_Assignment02.Tests
 {
     public class AlertsTests : BaseTest
     {
@@ -64,7 +64,7 @@ namespace CSE2522_Assignment.Tests
 
             string result = page.PromptAccept("Lasal");
 
-            Assert.That(result, Is.EqualTo("user value : Kavishka"));
+            Assert.That(result, Is.EqualTo("user value : Lasal"));
         }
 
         // TC004-[4 prompt cancel]
